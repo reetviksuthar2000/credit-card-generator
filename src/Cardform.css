@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Inter&family=Roboto&family=Space+Mono&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.app{
+    display: flex;
+}
+.left {
+    background: linear-gradient(26.99deg, rgba(69, 26, 78, 0.2) 52.61%, rgba(60, 13, 13, 0.2) 95.07%), linear-gradient(164.67deg, rgba(22, 4, 31, 0.98) 4.47%, #380C4A 15.5%, #3B0E46 19.19%, #3D0F42 23.38%, #441436 30.26%, #33254E 36.4%, #2B2D59 42.79%, #292654 47.99%, #271F4F 52.8%, #240D37 64.72%, #22052D 79.1%);
+    width: 25%;
+    height: 100vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* border: 1px solid #000000; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frontside {
+    top: 93px;
+    position: absolute;
+    left: 111px;
+    z-index: 1;
+
+}
+.frontcard {
+    position: absolute;
+    height: 186px;
+    width: 342px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.backcard {
+    position: absolute;
+    height: 186px;
+    width: 342px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+
+}
+
+.backside {
+    top: 301px;
+    position: absolute;
+    left: 171px;
+    z-index: 1;
+}
+.right{
+    display: flex;
+    width: 75%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.cardnum{
+    margin-top: 22px;
+
+}
+
+.form{
+    display: flex;
+    width: 390px;
+    /* height: 375px; */
+    flex-direction: column;
+}
+#name,
+#number {
+    margin-top: 6px;
+    /* gap: 20px; */
+    width: 382px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 6px;
+
+}
+#month,
+#year {
+    width: 67px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+input{
+    padding-left: 10px;
+}
+#year{
+    margin-left: 14px;
+}
+#cvc{
+    width: 189px;
+height: 38px;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.13);
+border-radius: 6px;
+margin-top: 6px;
+}
+
+.middle{
+    display: flex;
+    margin-top: 22px;
+
+}
+
+.errorlabel{
+    color: red;
+    font-size:12px
+}
+
+.cvclabel {
+    display: block;
+}
+.cvc{
+    margin-left: 17px;
+}
+button {
+    width: 385px;
+    height: 45px;
+    background: #220930;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    margin-top: 32px;
+    border: none;
+    color: #FFFFFF;
+}
